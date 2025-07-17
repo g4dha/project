@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project tailwind css</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body class="font-sans text-gray-800 bg-white">
+
+    <!-- navigation -->
+     <nav class="bg-emerald-50 shadow w-full z-50 fixed top-0">
+        <div class="flex justify-between items-center px-8 py-4 mx-auto">
+            <h1 class="text-2xl font-bold text-emarald-600">Portfolio</h1>
+            <div class="font-medium space-x-6">
+                <a href="#home" class="hover:text-emerald-600 transition">Home</a>
+                <a href="#about" class="hover:text-emerald-600 transition">About</a>
+                <a href="#projects" class="hover:text-emerald-600 transition">Projects</a>
+                <a href="#contact" class="hover:text-emerald-600 transition">Contacts</a>
+            </div>
+        </div>
+     </nav>
+
+     <!-- Home section -->
+      <section id="home" class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-emerald-800 to-green-400 text-white text-center px-4">
+      <img src="https://img.freepik.com/premium-vector/young-man-avatar-character-due-avatar-man-vector-icon-cartoon-illustration_1186924-4438.jpg?semt=ais_hybrid&w=740" alt="avatar" class="w-36 h-36 rounded-full mb-4  object-cover">
+      <h2 class="text-4xl font-bold text-white">Hi, I'm Gadha J</h2>
+      <p class="text-xl mt-2">A BTech Artificial Intelligence student passionate about building intelligent and impactful solutions.</p>
+      <p class="italic mt-2 text-lime-100">"Smart code. Sharp mind. Strong drive."</p>
+      <a href="#" class="mt-6 inline-block bg-white text-emerald-700 px-2 py-2 rounded-xl font-semibold hover:bg-gray-300 transition duration-300">Download Resume</a>
+
+</section>
+
+<!-- About section -->
+ <section id="about" class="py-20 bg-lime-50 px-4">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center text-emerald-700 mb-8">About Me</h2>
+        <p class="text-center text-gray-700 mb-6">I'm a BTech Artificial Intelligence student with a strong interest in solving real-world problems through smart technologies.</p>
+        <div class="grid md:grid-cols-4 gap-6 mt-10">
+            <!-- Skills -->
+             <div class="bg-emerald-100 p-6 rounded-xl shadow-lg transition hover:shadow-2xl hover:scale-105 duration-300">
+                <h3 class="text-xl font-bold mb-4 text-emerald-600">Skills</h3>
+                <ul class="list-disc space-y-1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>java</li>
+                </ul>
+             </div>
+             <!-- Education -->
+               <div class="bg-emerald-100 p-6 rounded-xl shadow-lg transition hover:shadow-2xl hover:scale-105 duration-300">
+                <h3 class="text-xl font-bold mb-4 text-emerald-600">Education</h3>
+                <h4 class="text-l font-medium mb-3">BTECH in Artificial Intelligence</h4>
+                <p class="text-s">Amrita Vishwa Vidyapeetham,Amritapuri</p>
+                <p>2024-28</p>
+
+                <h4 class="text-l font-bold mt-4 text-emerald-700">Relevant Coursework</h4>
+                <ul class="list-disc space-y-1">
+                    <li>Data Structures and Algorithms</li>
+                    <li>Mathematics for Computing</li>
+                    <li>Web Development</li>
+                    <li>Discrete math</li>
+                    
+                </ul>
+             </div>
+             <!-- Certificates -->
+              <div class="bg-emerald-100 p-6 rounded-xl shadow-lg transition hover:shadow-2xl hover:scale-105 duration-300">
+                <h3 class="text-xl font-bold mb-4 text-emerald-600">Certificates</h3>
+                <ul class="list-disc space-y-1">
+                    <li>Certificate in Python</li>
+                    <li>Isaac Sim and Omniverse Workshop by nvidia</li>
+                </ul>
+             </div>
+             <!-- Soft Skills -->
+              <div class="bg-emerald-100 p-6 rounded-xl shadow-lg transition hover:shadow-2xl hover:scale-105 duration-300">
+                <h3 class="text-xl font-bold mb-4 text-emerald-600">Soft Skills</h3>
+                <ul class="list-disc space-y-1">
+                    <li>Problem-Solving</li>
+                    <li>Communication</li>
+                    <li>Team collaboration</li>
+                    
+                </ul>
+             </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- Project Section -->
+   <section id="projects" class="py-20 bg-gradient-to-br from-green-50 to-emerald-100 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center text-emerald-700 mb-10">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Project Card -->
+        <div class="bg-white p-4 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="pic1.png" class="rounded-lg mb-4 w-full object-cover" alt="Project Screenshot">
+          <h3 class="text-xl font-bold text-emerald-600 mb-2">Hospital Management System</h3>
+          <p class="text-sm text-gray-600 mb-2">A hospital management system using Java ,GUI,SQL Databse </p>
+          <a href="#" class="text-emerald-600 underline">View GitHub </a>
+        </div>
+
+          <div class="bg-white p-4 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="pic2.png" class="rounded-lg mb-4 w-full object-cover" alt="Project Screenshot">
+          <h3 class="text-xl font-bold text-emerald-600 mb-2">Tourism Management System</h3>
+          <p class="text-sm text-gray-600 mb-2">For easy booking of hotels and selecting suitable packages based on price and number of members. using html,CSS and javascript </p>
+          <a href="#" class="text-emerald-600 underline">View GitHub </a>
+        </div>
+
+        <div class="bg-white p-4 rounded-xl shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+          <img src="pic3.png" class="rounded-lg mb-4 w-full object-cover" alt="Project Screenshot">
+          <h3 class="text-xl font-bold text-emerald-600 mb-2">Personal Portfolio Website</h3>
+          <p class="text-sm text-gray-600 mb-2"> A responsive personal portfolio built using HTML and Tailwind CSS to showcase my skills, projects, and background</p>
+          <a href="#" class="text-emerald-600 underline">View GitHub </a>
+        </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-lime-50 px-4">
+  <div class="max-w-xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-emerald-700 mb-8">Contact Me</h2>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Name"
+        class="bg-white w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400">
+      <input type="email" placeholder="Your Email"
+        class="bg-white w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400">
+      <textarea placeholder="Your Message" rows="5"
+        class="bg-white w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-400"></textarea>
+      <button type="submit"
+        class="bg-emerald-600 text-white px-6 py-2 rounded-lg hover:bg-emerald-700 transition">Submit</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-br from-lime-100 to-emerald-100 text-center py-4 text-gray-700 w-full">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-2xl font-bold mb-4 text-emerald-700">Connect with Me</h3>
+    <div class="flex justify-center space-x-6 mb-4">
+      <a href="#" target="_blank" class="hover:underline text-blue-400">LinkedIn</a>
+      <a href="#" target="_blank" class="hover:underline text-blue-400">GitHub</a>
+     
+    </div>
+    <p class="text-sm text-gray-400">© 2025 Gadha Jagadeesh. All rights reserved.</p>
+  </div>
+</footer>
+
+
+         
+         
+
+</body>
+</html>
